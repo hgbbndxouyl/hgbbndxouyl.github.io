@@ -1,0 +1,57 @@
+/****Variables****/
+:root {
+    --primary:#4d4077;
+    --primary-tint:#887AB5;
+    --primary-shade:#211B37;
+
+    --secondary:#EDE4E4;
+    --secondary-tint:#FEEFEF;
+    --secondary-shade:#BDB4B4;
+
+    --Primary-button:#433E50;
+    --Primary-button:#989292;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    color: var(--secondary);
+}
+a:hover {
+    color: var(--secondary-shade);
+}
+ a:active {
+    color: var(--secondary-tint);
+}
+
+.Navbar {
+    background-color: var(--primary);
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+}
+.Navbar ul {
+display: flex;
+list-style-type: none;
+}
+.Navbar li {    
+
+    padding: 0;
+
+}
+.Navbar li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.Navbar p {
+    text-align: center;
+    margin: 4rem 8rem 5rem 3rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+.Navbar img {
+    width:50%;
+    margin: 1rem 5rem 5rem 7rem;
+}
