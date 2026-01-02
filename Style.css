@@ -137,3 +137,36 @@ body {
     border-radius: 25px;
     margin: 5rem auto 0 auto;
 }
+
+.containerC {
+    display: flex;
+}
+
+.containerC ul {
+    margin: auto;
+}
+.cntrL {
+    display: block;
+    margin: auto;
+}
+.cntrS {
+    margin: 2.5rem auto;
+    width: 20rem;
+}
+.cntrS ul {
+    background-color: var(--primary-shade);
+    border-radius: 25px;
+    height: 500px;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cntrS li {
+    list-style: none;
+    margin: 5px;
+    color: var(--secondary-tint);
+}
+.cntrS h2 {
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--secondary);
+}
