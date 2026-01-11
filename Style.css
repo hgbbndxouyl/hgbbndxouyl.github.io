@@ -170,3 +170,29 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--secondary);
 }
+
+
+.Profile img {
+    border-radius: 50%;
+    margin-left: 3rem;
+}
+
+.contact {
+    background-color: var(--secondary-shade);
+    height: 10rem;
+    width: 15rem;
+    padding: 1.5rem;
+    margin: 1rem 0 0 5rem;
+}
+.contact li {
+        list-style: none;
+}
+.story {
+    background-color: var(--secondary-shade);
+    height: 35rem;
+    width: 45rem;
+    position: absolute;
+    right: 25rem;
+    top: 20rem;
+    padding: 2rem;
+}
