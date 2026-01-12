@@ -3,11 +3,11 @@
     --primary:#4d4077;
     --primary-tint:#887AB5;
     --primary-shade:#211B37;
-
+    
     --secondary:#EDE4E4;
     --secondary-tint:#FEEFEF;
     --secondary-shade:#BDB4B4;
-
+    
     --Primary-button:#433E50;
     --Secondary-button:#989292;
 }
@@ -22,7 +22,7 @@ a:link, a:visited {
 a:hover {
     color: var(--secondary-shade);
 }
- a:active {
+a:active {
     color: var(--secondary-tint);
 }
 
@@ -33,13 +33,13 @@ a:hover {
     height: 10rem;
 }
 .Navbar ul {
-display: flex;
-list-style-type: none;
+    display: flex;
+    list-style-type: none;
 }
 .Navbar li {    
-
+    
     padding: 0;
-
+    
 }
 .Navbar li a {
     text-decoration: none;
@@ -62,67 +62,67 @@ body {
 
 /* Slideshow */
 .slideshow-container {
-  width: 100%;
-  height: 480px;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto 2rem auto;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 2rem auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .Main-slides {
-  display: none;
-  height: 50%;
+    display: none;
+    height: 50%;
 }
 
 .Main-slides img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
 }
 
 /* Controls */
 .prev, .next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px 20px;
-  border-radius: 50%;
-
-  font-size: 28px;
-  color: var(--secondary);
-  cursor: pointer;
-  background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px 20px;
+    border-radius: 50%;
+    
+    font-size: 28px;
+    color: var(--secondary);
+    cursor: pointer;
+    background: rgba(0,0,0,0.4);
 }
 .prev { left: 0; }
 .next { right: 0; }
 
 /* Text & dots */
 .text {
-  position: absolute;
-  bottom: 25px;
-  width: 100%;
-  text-align: center;
-  color: var(--secondary);
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    text-align: center;
+    color: var(--secondary);
 }
 
 .dot {
-  height: 33px;
-  width: 33px;
-  margin: 5px;
-  background: var(--Primary-button);
-  border-radius: 50%;
-  display: inline-block;
+    height: 33px;
+    width: 33px;
+    margin: 5px;
+    background: var(--Primary-button);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .button{
-  background-color: var(--primary);
-  border-radius: 25px;
-  max-width: 12rem;
-  margin: -1rem auto;
-
+    background-color: var(--primary);
+    border-radius: 25px;
+    max-width: 12rem;
+    margin: -1rem auto;
+    
 }
 
 .active { background: var(--primary-shade); }
@@ -175,6 +175,7 @@ body {
 .Profile img {
     border-radius: 50%;
     margin-left: 3rem;
+    height: 20rem;
 }
 
 .contact {
@@ -185,7 +186,7 @@ body {
     margin: 1rem 0 0 5rem;
 }
 .contact li {
-        list-style: none;
+    list-style: none;
 }
 .story {
     background-color: var(--secondary-shade);
@@ -195,4 +196,58 @@ body {
     right: 25rem;
     top: 20rem;
     padding: 2rem;
+}
+
+
+
+.Info {
+    position: absolute;
+    right: 30rem;
+    top: 13rem;
+    padding: 2rem;
+    background-color: var(--secondary-shade);
+    height: 25rem;
+    width: 35rem;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    a:link {
+        color: var(--secondary);
+    }
+    
+    a:visited {
+        color: var(--secondary);
+    }
+    
+    a:hover {
+        color: var(--Primary-button);
+    }
+    
+    a:active {
+        color: var(--primary);
+    }
+}
+
+.Info ul {
+    padding: 2rem 5rem;
+}
+
+.Info li {
+    margin-bottom: 1.5rem;
+}
+
+.perk img {
+    width:  25rem;
+    height: 15rem;
+    padding: 0rem 1rem;
+}
+
+.perk {
+    background-color: var(--primary-shade);
+    width: 80rem;
+    padding: 2rem 2rem;
+    position: absolute;
+    right: 20rem;
+    top: 40rem;
 }
